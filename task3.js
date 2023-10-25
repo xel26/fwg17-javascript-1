@@ -74,7 +74,7 @@ lalu 1 di increment menjadi 2 dan tidak memenuhi kondisi lagi
 jadi lanjut ke console.log kemudian variable segitiga di kosongkan kembali
 lalu kembali ke for pertama
 
-                                                                                jadi hasil di baris keempat = 1 
+                                                                                jadi hasil di baris kelima = 1 
 
 di for pertama 1 di decrement menjadi 0
 karena tidak memenuhi kondisi lagi loopingan berhenti
