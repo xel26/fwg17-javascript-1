@@ -16,14 +16,19 @@ let data = {
 
 
 // Task a :
-let myData = {...data, hobby: "Coding"}
-myData.name = "Shella Ananda"
-myData.email = "shellaananda2636@gmail.com"
-console.log(myData)
+let newData = {
+    ...data,
+    name: "Shella Ananda",
+    email: "shellaananda2636@gmail.com",
+    hobby: "Coding",
+}
+
+console.log(data)
+console.log(newData)
 
 
 
 // Task b :
-const {address : {street, city}} = data
+const {address: {street, city}} = newData
 console.log(street)
 console.log(city)
