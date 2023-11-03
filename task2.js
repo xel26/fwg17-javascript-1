@@ -32,8 +32,7 @@ for(let i = 0; i < mapel.length; i++){                                          
 }
 
 let rataRata = totalNilai / mapel.length                                            // 7. menghitung rata-rata dengan hasil total nilai di bagi panjang data array mapel
-console.log(`rata-rata asli = ${rataRata}`)                                         // 8. hasil rata-rata yang terkadang memiliki nilai desimal
-rataRata = Math.round(rataRata)                                                     // 9. membulatkan nilai rata-rata desimal ke yang terdekat
+rataRata = Math.round(rataRata)                                                     // 9. membulatkan nilai rata-rata desimal ke yang terdekat jika hasil rata-rata adalah desimal yang tidak ada di pengkondisian
 
     let grade = ""                                                                  // 10. deklarasi variable yang akan di isi nilai grade
     if(90 <= rataRata && rataRata <= 100){                                          // 11. pengkondisian = jika rata-rata antara 90-100 maka grade A
