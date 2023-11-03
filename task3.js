@@ -2,7 +2,7 @@ const printSegitiga = 5                               // 1. deklarasi variable p
 
 
 if(isNaN(printSegitiga)) {                            // 2. memeriksa input printSegitiga bukan sebuah number. jika bernilai true maka akan menampilkan pesan tersebut
-    console.log("masukan angka")
+    console.log("Data harus number")
 }else{                                                // 3. jika bernilai false yang berarti input printSegitiga merupakan number. maka akan menjalankan loopingan tersebut
     for (let i = printSegitiga; i >= 1; i--){
 
